@@ -1,3 +1,5 @@
+"""map-reduce-william-shakespeare"""
+
 import re
 from datetime import datetime
 from collections import defaultdict

@@ -8,6 +8,6 @@ Here's the rundown:
     - \[**FlaskWeather**\] sets up flask server to handle requests w/ flask router
     - \[**LogWrapper**\] is a custom wrapper for FlaskWeather which logs to log file. 
 
-- \[**mrws_c.py**\] (mapreduce-william-shakespeare-common) extracts and counts up the number instances of each word 
-- \[**mrws.py**\]   (mapreduce-william-shakespeare) extracts and counts up the number instances of each word AND role AND stores word counts by act number
-- \[**ws.txt**\] is shakespeare's A Midsummer Night's Dream to read from
+- \[**mrws_c.py**\] (map-reduce-william-shakespeare-common) extracts and counts up the number instances of each word 
+- \[**mrws.py**\]   (map-reduce-william-shakespeare) extracts and counts up the number instances of each word AND role AND stores word counts by act number
+- \[**ws.txt**\] is shakespeare's A Midsummer Night's Dream the file to read from
