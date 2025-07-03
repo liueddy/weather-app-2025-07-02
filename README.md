@@ -11,3 +11,4 @@ Here's the rundown:
 - \[**mrws_c.py**\] (map-reduce-william-shakespeare-common) extracts and counts up the number instances of each word 
 - \[**mrws.py**\]   (map-reduce-william-shakespeare) extracts and counts up the number instances of each word AND role AND stores word counts by act number
 - \[**ws.txt**\] is shakespeare's A Midsummer Night's Dream the file to read from
+- \[**mymongo.py**\] is a template for how i'd implement a connection to mongo
