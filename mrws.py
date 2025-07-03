@@ -27,9 +27,9 @@ def my_map_reduce(file_name):
                 [fun( d,x.lower()) for x in ls]
                 [fun(ad,x.lower()) for x in ls]
                 # log chars:
-                if len(ls) >= 2 and ls[1].isupper() and ls[0].isupper() and len(ls[1]) > 1 and len(ls[0]) > 1 and ls[0] != "prologue":
+                if len(ls) >= 2 and ls[1].isupper() and ls[0].isupper() and len(ls[1]) > 1 and len(ls[0]) > 1 and ls[0] != "PROLOGUE":
                     fun(c," ".join(ls[:2]))
-                elif len(ls) >= 1 and len(ls[0]) > 1 and ls[0].isupper():
+                elif len(ls) >= 1 and len(ls[0]) > 1 and ls[0].isupper() and ls[0] != "PROLOGUE":
                     fun(c,ls[0])
                 else:
                     continue
