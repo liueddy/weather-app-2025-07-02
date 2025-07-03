@@ -1,0 +1,7 @@
+requests
+flask
+flask_cors
+fastapi
+pydantic
+httpx
+numpy

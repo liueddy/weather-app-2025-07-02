@@ -1,0 +1,1 @@
+{'date': datetime.datetime(2025, 7, 3, 10, 17, 12, 83278), 'method': 'GET', 'path': '/weather', 'args': ImmutableMultiDict([('city', 'boston'), ('units', 'daslkdk')])}
